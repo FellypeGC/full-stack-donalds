@@ -9,7 +9,7 @@ import Image from "next/image";
 import { useContext, useState } from "react";
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { CartContext } from "../../contexts/cart";
-import CartSheet from "./cart-sheet";
+import CartSheet from "../../components/cart-sheet";
 
 
 interface ProductDetailsProps {
