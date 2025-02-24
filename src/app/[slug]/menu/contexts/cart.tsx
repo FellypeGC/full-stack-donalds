@@ -32,7 +32,7 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
       (prevProduct) => prevProduct.id === product.id
     );
     if (!productIsAlreadyOnTheCart) {
-      return [...products, product]
+      return setProducts((prev) => [...prev, product]);
     }
 
     setProducts((prevProducts) => {
