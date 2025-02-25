@@ -1,10 +1,11 @@
 "use server";
 
 import type { ConsumptionMethod } from "@prisma/client";
+import { redirect } from "next/navigation";
 
 import { db } from "@/lib/prisma";
+
 import { removeCpfPunctuation } from "../helpers/cpf";
-import { redirect } from "next/navigation";
 
 
 interface CreateOrderInput {
