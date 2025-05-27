@@ -1,4 +1,9 @@
 # full-stack-donalds
+## FSW Donalds – Fast Food Ordering Interface
+A modern web-based fast food ordering system inspired by real-world restaurant experiences. This project simulates an online menu for a fictional fast food brand, "FSW Donalds", showcasing product categories like combos, burgers, fries, drinks, and desserts. Each item includes detailed descriptions and pricing, offering a user-friendly layout and responsive design.
+
+Link: https://full-stack-donalds.vercel.app/fsw-donalds
+
 Projeto Donalds Full-Stack.
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
